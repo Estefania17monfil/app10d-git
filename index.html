@@ -1,0 +1,609 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>App10 CBTis16</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+
+<body onLoad="MM_preloadImages('imagenes/imagen7.jpg','imagenes/dgti.jpg','imagenes/tallerprogra.jpg','imagenes/tallerelectri.JPG','imagenes/tallermecanica.JPG','imagenes/muestra3.JPG','imagenes/logo.png')"> 
+<div data-role="page" id="principal" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+      <h1>CBTis16</h1>
+     </div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/imagen1.jpg" alt="imagen1" title="imagen1" id="wows1_0"/></li>
+		<li><img src="data1/images/imagen2.jpg" alt="imagen2" title="imagen2" id="wows1_1"/></li>
+		<li><img src="data1/images/imagen3.jpg" alt="imagen3" title="imagen3" id="wows1_2"/></li>
+		<li><img src="data1/images/imagen4.jpg" alt="imagen4" title="imagen4" id="wows1_3"/></li>
+		<li><img src="data1/images/imagen5.jpg" alt="imagen5" title="imagen5" id="wows1_4"/></li>
+		<li><img src="data1/images/imagen6.jpg" alt="imagen6" title="imagen6" id="wows1_5"/></li>
+		<li><img src="data1/images/imagen7.jpg" alt="imagen7" title="imagen7" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/imagen8.jpg" alt="slider" title="imagen8" id="wows1_7"/></a></li>
+		<li><img src="data1/images/imagen9.jpg" alt="imagen9" title="imagen9" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="imagen1"><span><img src="data1/tooltips/imagen1.jpg" alt="imagen1"/>1</span></a>
+		<a href="#" title="imagen2"><span><img src="data1/tooltips/imagen2.jpg" alt="imagen2"/>2</span></a>
+		<a href="#" title="imagen3"><span><img src="data1/tooltips/imagen3.jpg" alt="imagen3"/>3</span></a>
+		<a href="#" title="imagen4"><span><img src="data1/tooltips/imagen4.jpg" alt="imagen4"/>4</span></a>
+		<a href="#" title="imagen5"><span><img src="data1/tooltips/imagen5.jpg" alt="imagen5"/>5</span></a>
+		<a href="#" title="imagen6"><span><img src="data1/tooltips/imagen6.jpg" alt="imagen6"/>6</span></a>
+		<a href="#" title="imagen7"><span><img src="data1/tooltips/imagen7.jpg" alt="imagen7"/>7</span></a>
+		<a href="#" title="imagen8"><span><img src="data1/tooltips/imagen8.jpg" alt="imagen8"/>8</span></a>
+		<a href="#" title="imagen9"><span><img src="data1/tooltips/imagen9.jpg" alt="imagen9"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> CBTis16</h1>
+        <div>
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/img_3829.jpg" alt="IMG_3829" title="IMG_3829" id="wows2_0"/></li>
+		<li><img src="data2/images/img_3830.jpg" alt="IMG_3830" title="IMG_3830" id="wows2_1"/></li>
+		<li><img src="data2/images/img_3832.jpg" alt="IMG_3832" title="IMG_3832" id="wows2_2"/></li>
+		<li><img src="data2/images/img_3831.jpg" alt="IMG_3831" title="IMG_3831" id="wows2_3"/></li>
+		<li><img src="data2/images/img_3833.jpg" alt="IMG_3833" title="IMG_3833" id="wows2_4"/></li>
+		<li><img src="data2/images/img_3834.jpg" alt="IMG_3834" title="IMG_3834" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/img_3836.jpg" alt="wowslideshow" title="IMG_3836" id="wows2_6"/></a></li>
+		<li><img src="data2/images/img_3838.jpg" alt="IMG_3838" title="IMG_3838" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="IMG_3829"><span><img src="data2/tooltips/img_3829.jpg" alt="IMG_3829"/>1</span></a>
+		<a href="#" title="IMG_3830"><span><img src="data2/tooltips/img_3830.jpg" alt="IMG_3830"/>2</span></a>
+		<a href="#" title="IMG_3832"><span><img src="data2/tooltips/img_3832.jpg" alt="IMG_3832"/>3</span></a>
+		<a href="#" title="IMG_3831"><span><img src="data2/tooltips/img_3831.jpg" alt="IMG_3831"/>4</span></a>
+		<a href="#" title="IMG_3833"><span><img src="data2/tooltips/img_3833.jpg" alt="IMG_3833"/>5</span></a>
+		<a href="#" title="IMG_3834"><span><img src="data2/tooltips/img_3834.jpg" alt="IMG_3834"/>6</span></a>
+		<a href="#" title="IMG_3836"><span><img src="data2/tooltips/img_3836.jpg" alt="IMG_3836"/>7</span></a>
+		<a href="#" title="IMG_3838"><span><img src="data2/tooltips/img_3838.jpg" alt="IMG_3838"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        </div>
+        <div>
+       <p> CENTRO DE BACHILLERATO TECNOLÓGICO INDUSTRIAL Y DE SERVICIOS NO. 16</p>
+         <br>
+        </div>
+        <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/imagen7.jpg',1)"><img src="imagenes/imagen6.jpg" width="250" height="250" id="Image9"></a></div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> DGETI</h1>
+        <div>
+         <p>¿Que es DGETI? </p>
+         <p>La Dirección General de Educación Tecnológica Industrial es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS), dependiente de la Secretaría de Educación Pública (SEP) que ofrece el servicio educativo del nivel medio superior tecnológico. </p>
+         <br>
+        </div>
+        <div>
+        <img src="imagenes/logoDgeti_comun.jpg" width="350" height="413"></div>
+       </div>
+      </div>
+      
+      <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Especialidades</h2>
+         <p>Se muestra informacion sobre las especialidades que hay</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Plantel</h2>
+         <p>Se muestra el plantel</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Docentes</h2>
+         <p> Muestra algunos docentes</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Servicios Escolares</h2>
+         <p> Muestra los servicios que hay </p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Estudiantes</h2>
+         <p> Muestra los estudiantes que hay en el plantel</p>
+        </a>
+       </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Historia del Plantel</h2>
+         <p> Muestra la historia</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Informe de actividades</h2>
+         <p> Muestra las actividades</p>
+        </a>
+       </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Programador</h2>
+         <p> Muestra los datos del programdor</p>
+        </a>
+       </li>
+       </ul>
+      </div>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href=" http://www.cbtis016.edu.mx/" data-role="button" id="beep">
+     <h2>Mostar mas Informacion</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+       </div>
+       <div>
+        <h4> Proyecto Final</h4>
+        <h4> Estefania Monfil Espinoza</h4>
+       </div>
+      </div>
+     </div>
+     
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Especialidades</h2>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+       </div>
+      </div>
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Logistica</h1>
+        <div>
+         <p> TÉCNICO EN LOGISTICA
+
+Ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a la administración de bienes, planificando los suministros destinados al almacenamiento de manera manual y electrónica, la organización de los nodos logísticos para el transporte de mercancías, así como proveer los servicios y atención al cliente sobre los movimientos y los costos de la cadena logística.
+COMPETENCIAS PROFESIONALES</p>
+          <br>
+        </div>
+        <div>
+        <img src="imagenes/logistica.jpg" width="300" height="300"></div>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/logistica " data-role="button" id="beep">
+     <h2>Visitar Pgina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+
+       </div>
+      </div>
+       
+       <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Programación</h1>
+        <div>
+         <p> TÉCNICO EN PROGRAMACIÓN
+
+Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing.
+
+COMPETENCIAS PROFESIONALES</p>
+          <br>
+        </div>
+        <div>
+        <img src="imagenes/programacion.jpg" width="300" height="300"></div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/tallerprogra.jpg',1)"><img src="imagenes/tallerprogramacion.JPG" width="250" height="250" id="Image31"></a>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/programacion " data-role="button" id="beep">
+     <h2>Visitar Pgina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+
+       </div>
+      </div>
+      
+       <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Electricidad</h1>
+        <div>
+         <p> TÉCNICO EN ELECTRICIDAD
+
+La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.
+
+COMPETENCIAS PROFESIONALES</p>
+          <br>
+        </div>
+        <div>
+        <img src="imagenes/electricidad.JPG" width="300" height="300"></div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/tallerelectri.JPG',1)"><img src="imagenes/tallerelectricidad.JPG" width="250" height="250" id="Image32"></a>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/electricidad" data-role="button" id="beep">
+     <h2>Visitar Pgina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+
+       </div>
+      </div>
+      
+         <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Mecánica Industrial</h1>
+        <div>
+         <p> TÉCNICO EN MECÁNICA INDUSTRIAL
+
+Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.
+
+COMPETENCIAS PROFESIONALES</p>
+          <br>
+        </div>
+        <div>
+        <img src="imagenes/mecanica.jpg"width="300" height="300"></div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3354','','imagenes/tallermecanica.JPG',1)"><img src="imagenes/tallermeca.jpg" width="250" height="250" id="Image3354"></a>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/mecanica-industrial" data-role="button" id="beep">
+     <h2>Visitar Pgina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+
+       </div>
+      </div>
+      
+      <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>
+     
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Plantel</h2>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2> MISIÓN</h2>
+
+<h2>Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</h2>
+
+ 
+
+                                        <h2>VISIÓN</h2>
+
+<h2>Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/logo.png',1)"><img src="imagenes/logoSEP_hoz.png" width="286" height="84" id="Image50"></a></div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>
+     
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Docentes</h2>
+      </div>
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> Calendario de Actividades</h1>
+        <div>
+         <br>
+         
+        </div>
+        <div>
+       </div>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://drive.google.com/file/d/0B-Yz_u3SAFZIak52YVNsODdfTDg/view " data-role="button" id="beep">
+     <h2>Visitar Pgina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+
+       </div>
+      </div>
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> SISEEMS</h1>
+        <h2>Sistema de Servicios Escolares de la Educación Media Superior (SISEEMS)</h2>
+        <div>
+         <br>
+        </div>
+        <div>
+        </div>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.siseems.sems.gob.mx/produccion/" data-role="button" id="beep">
+     <h2>Visitar Pagina </h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+       </div>
+      </div>
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> Calendario SEP</h1>
+        <div>
+         <br>
+        </div>
+        <div>
+        </div>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.gob.mx/cms/uploads/attachment/file/97534/Calendario_escolar_200_dias.pdf " data-role="button" id="beep">
+     <h2>Visitar Pagina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+       </div>
+      </div>
+      
+       <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> Planes Y Programas De Estudio</h1>
+        <div>
+        <p>Programas de estudio del Bachillerato Tecnológico Formación Básica y Propedéutica</p>
+
+
+<p>Asignaturas de los Componentes de Formación Básica y Propedéutica</p>
+<p>Asignaturas de los Componentes de Formación Básica y Propedéutica</p>
+<p>Acuerdo 345</p>
+<p>Acuerdo 653</p>
+ <p>Para dudas y comentarios sobre programas de estudio de las asignaturas de los componentes de formación básica y propedéutica, escribir a: 
+
+asignaturas@cosdac.sems.gob.mx</p>
+         <br>
+        </div>
+        <div>
+        </div>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://cosdac.sems.gob.mx/portal/index.php/estudiar-trabajar/programas-de-estudios-vigentes" data-role="button" id="beep">
+     <h2>Visitar Pagina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+       </div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+      <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>
+     
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Becas</h2>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2>En esta sección se describen los diferentes tipos de becas que otorga la Secretaría de Educación Pública (SEP) a través de la Subsecretaría de Educación Media Superior (SEMS)</h2>
+
+<h2>GOBIERNO FEDERAL</h2>
+
+<h2>EXCELENCIA PROMEDIO</h2>
+<h2>INGRESO</h2>
+<h2>PERMANENCIA</h2>
+<h2>SALARIO PRÁCTICAS PROFESIONALES</h2>
+<h2>CONTRA EL ABANDONO ESCOLAR</h2> 
+<h2>Mayor información: Portal Oficial</h2>
+
+<h2>GOBIERNO ESTATAL</h2>
+
+<h2>OPORTUNIDADES</h2>
+<h2>Mayor información: Portal Oficial</h2>
+
+<h2>Para mayores informes favor de acudir al departamento de Servicios Escolares.</h2>
+        <img src="imagenes/becas.png" width="300" height="393">
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:90%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.cbtis016.edu.mx/index.php/servicios-escolares/becas" data-role="button" id="beep">
+     <h2>Visitar Pagina</h2>
+    </a>
+   </li>
+
+  </ul>
+ </div>
+</div>
+       </div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>
+     
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Nuevo Ingreso</h2>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <h2>FICHA NUEVO INGRESO</h2>
+<h2>REQUISITOS</h2>
+        <img src="imagenes/fichas2017.jpg"width="400" height="400">
+     <br>
+       </div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>
+  
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Historia Del Plantel</h2>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <h2>BREVE RESEÑA HISTORICA DEL C.B.T.i.s. No. 16</h2>
+
+<h2>El presente trabajo, tiene como finalidad conocer aspectos sobre la evolución del C.B.T.i.s. No. 16 para lo cual se muestran algunas de sus raíces históricas. El día 08 de Agosto, el comité que representa la Federación de obreros y Campesinos de la región de Atlixco Pué; hizo entrega al Ingeniero Estrada Cuesta en representación del C.A.P.E.C.E., un terreno de 5966.38 metros cuadrados de superficie para la construcción de la Escuela Técnica Industrial No.46 de esta ciudad, procediendo a su edificación. El día 25 de febrero de 1962, en una de las oficinas que forman la H. Cámara de Trabajo C.R.O.M. de Atlixco, empezó a laborar la Dirección de la E.T.I. No. 46., fungiendo como primer Director el C. Ing. Francisco Linares Jiménez, auxiliado por el C. Tec. Oscar Rodríguez Grijalva y el personal administrativo formado por las C. C. Eva Judith Rosas Bonillas, Ma. Cristina Fernández Sosa, Carolina Rosas Zarate y el C. Juan Apatenco Fernández. A los quince días después se hizo el traslado al edificio que ocupa dicha escuela, la cual constaba de 5 salones de clase, 5 talleres y 2 salones de dibujo. El día 1 de Abril de 1962, se iniciaron las labores con tres grupos de secundaria con las especialidades de ajuste de banco y maquinas, herramientas, maquinas de combustión interna, modas, radio y T.V., ELECTRONICA, ELECTRICIDAD Y EQUIPO AGRICOLA, además hubo tres grupos de Preparatoria Técnica Elemental en las especialidad de; maquinas de combustión interna, electricidad, ajuste de banco, equipo agrícola , haciendo un total de 169 alumnos que, en su mayoría eran campesinos y trabajadores de las diferentes fabricas de la región. </h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image324345','','imagenes/muestra3.JPG',1)"><img src="imagenes/muestra2.JPG" width="300" height="300" id="Image324345"></a> </div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>    
+  
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Informe de Actividades</h2>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <h2>Derivado de uno de los acuerdos de la CONAEDU Capítulo Media Superior del día 14 de diciembre de 2016, la plataforma permanecerá abierta hasta el día 25 de enero de 2017, para que los planteles puedan concluir la captura y carga de los informes de actividades y rendición de cuentas del ciclo escolar 2015-2016.
+Bienvenido al Portal de Informes de Actividades y de Rendición de Cuentas de Educación Media Superior
+En cumplimiento a lo dispuesto en la fracción XII Quáter del artículo 14 de la Ley General de Educación y al Oficio No.: 980 de la Subsecretaría de Educación Media Superior, por el cual se emitieron los “Lineamientos conforme a los cuales los Directores de los planteles de educación media superior dependientes de la Secretaría de Educación Pública, deberán rendir el informe de sus actividades y rendición de cuentas”, se desarrolló este Portal, el cual permitirá a los Directores de los planteles federales de educación media superior, registrar y publicar oportunamente los informes de sus respectivas instituciones.</h2>
+ 
+<h2>La aplicación permite la captura de los informes, considerando los siguientes rubros:</h2>
+ 
+<h2>Situación académica</h2>
+<h2>Personal docente, directivo y administrativo</h2>
+<h2>Gestión financiera y administrativa</h2>
+<h2>Infraestructura, equipamiento y conectividad</h2>
+<h2>Otros rubros.</h2>
+ 
+<h2>Cabe señalar que, además de la captura, el Director del plantel deberá subir a este Portal en formatos firmados y digitalizados (PDF), tanto los Informes como el Acta Circunstanciada con la que se acredite que el mismo ha sido rendido ante la comunidad educativa del plantel de que se trate.</h2>
+ 
+<h2>En caso de dudas, le agradeceremos se sirva enviar su consulta por medio de la sección contacto de este Porta.</h2>
+        <img src="imagenes/logoSEP_hoz.png"width="250" height="250">
+     <br>
+       </div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>
+    
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h2>Programador</h2>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <h2>Nombre de la alumna:</h2><h2>Estefania Monfil Espinoza</h2>
+        <h2>Plantel:</h2><h2>CBTis No.16</h2>
+         <h2>Grado:</h2><h2>4</h2><h2>Grupo:</h2><h2>"F"</h2>
+        <h2>Nombre Del Profesor:</h2><h2>José Antonio Gómez Hernández </h2>
+        <h2>Materia:</h2><h2>DAM </h2>
+        <h2>Proyecto Final</h2>
+        <img src="imagenes/programadora.jpg"width="250" height="250">
+     <br>
+       </div>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4>Proyecto Final, EME</h4>
+      </div>
+     </div>  
+  
+  
+
+</body>
+</html>
